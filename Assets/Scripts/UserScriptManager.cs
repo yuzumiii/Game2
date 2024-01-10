@@ -59,9 +59,9 @@ namespace NovelGame
                 case "&rmimg":
                     GameManager.Instance.imageManager.RemoveImage();
                     break;
-                //case "&select":
-                //    GameManager.Instance.imageManager.RemoveImage();
-                //    break;
+                case "&select":
+                    GameManager.Instance.buttonManager.SetSelectButton(words[1], words[2]);
+                    break;
                 //case "&jump":
                 //    GameManager.Instance.selectManager.JumpTo();
                 //    break;

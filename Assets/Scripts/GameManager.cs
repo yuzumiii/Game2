@@ -12,7 +12,7 @@ namespace NovelGame
         public UserScriptManager userScriptManager;
         public MainTextController mainTextController;
         public ImageManager imageManager;
-        //public SelectManager selectManager;
+        public ButtonManager buttonManager;
 
         // ユーザスクリプトの、今の行の数値。クリック（タップ）のたびに1ずつ増える。
         [System.NonSerialized] public int lineNumber;
@@ -21,7 +21,6 @@ namespace NovelGame
         {
             // これで、別のクラスからGameManagerの変数などを使えるようになる。
             Instance = this;
-
             lineNumber = 0;
         }
     }

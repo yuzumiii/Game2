@@ -1,3 +1,5 @@
+&select btn1 あいうえお
+&select btn2 あいうえお
 &img backgroundObject kyousitu
 &chara charaObject raise/1:center
 &name 来世先生
@@ -19,10 +21,10 @@
 先生は私の机の横まで来ると、私の手からプリントを抜き、まじまじとそれを見た
 &name 来世先生
 ･････････
-いやいや、ここにあるでしょ貴方の分は
 &rmimg
 &name 　　
-そして彼は当たり前のように平然とした顔で私の分の進路希望調査票を後ろの机に置いた
+そして彼は当たり前のように平然とした顔で私の分の進路希望調査票を取り上げ･･････
+後ろの机に置いた
 &chara charaObject raise/2:center
 ここにあるでしょ、貴方の分は
 &chara charaObject mei/2:center
